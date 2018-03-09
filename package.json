@@ -1,0 +1,19 @@
+{
+  "name": "node-tutorial-netninja",
+  "version": "1.0.0",
+  "description": "Tutorial from NetNinja on YouTube",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cjharkins/node-JS-tutorial.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cjharkins/node-JS-tutorial/issues"
+  },
+  "homepage": "https://github.com/cjharkins/node-JS-tutorial#readme"
+}
