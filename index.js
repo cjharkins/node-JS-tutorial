@@ -110,10 +110,14 @@ const fs = require('fs');
 const path = require('path');
 
 // Blocking code
-const readMe = fs.readFileSync('./readMe.txt', 'utf-8');
-// console.log(readMe);
-fs.writeFileSync('./writeMe.txt', readMe);
+// const readMe = fs.readFileSync('./readMe.txt', 'utf-8');
+// // console.log(readMe);
+// fs.writeFileSync('./writeMe.txt', readMe);
 
+//Non-Blocking code (Async)
+fs.readFile('readMe.txt','utf-8', function(err,data){
+	fs.writeFile('writeMeAgain.txt', data);
+});
 
 
 
